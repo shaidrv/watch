@@ -1,0 +1,219 @@
+.first-line {
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    height: 859px;
+    overflow: visible;
+    width: 1240px;
+    background-image: url('../images/promo.png');
+    background-position: 410px -77px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-content {
+      width: 408px;
+
+      hr {
+        width: 50px;
+        display: inline-block;
+        border: 1px solid #8b8371;
+        margin: 10px 0;
+      }
+
+      h1 {
+        font-family: 'Playfair Display';
+        font-size: 45px;
+        color: #1b1a17;
+        display: inline-block;
+        margin: 0 0 16px 10px;
+      }
+
+      h2 {
+        font-family: 'Playfair Display';
+        font-size: 30px;
+        color: #1b1a17;
+        margin: 0 0 39px 65px;
+      }
+
+      p {
+        color: rgba(27, 26, 23, 0.82);
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0 0 39px 65px;
+      }
+
+      button {
+        width: 205px;
+        height: 64px;
+        background-color: #444240;
+        border: none;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 0 0 0 65px;
+      }
+    }
+
+    &-price {
+      font-family: 'Prata';
+      font-size: 16px;
+      color: #1b1a17;
+      position: relative;
+      top: -221px;
+      left: -130px;
+
+      hr {
+        width: 50px;
+        display: inline-block;
+        border: 1px solid #8b8371;
+        margin: 0px 0 5px 10px;
+      }
+    }
+
+    &-size {
+      font-family: 'Prata';
+      font-size: 16px;
+      color: #1b1a17;
+      position: relative;
+      top: 222px;
+      left: -55px;
+
+      hr {
+        width: 50px;
+        display: inline-block;
+        border: 1px solid #8b8371;
+        margin: 0px 10px 5px 0;
+      }
+    }
+  }
+}
+
+.second-line {
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    width: 1240px;
+
+    h2 {
+      text-align: center;
+      font-family: 'Playfair Display';
+      font-size: 32px;
+      color: #1b1a17;
+    }
+
+    .to-all {
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 16px;
+      color: #444240;
+      position: relative;
+      left: 90%;
+      text-decoration: none;
+      border-bottom: 1px solid #c4c0b6;
+      display: block;
+      height: 26.5px;
+      width: 104px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 86px 0;
+
+      .card {
+        background-color: #fdfdfb;
+        width: 370px;
+        padding: 40px 29px 40px 40px;
+
+        h3 {
+          font-family: 'Playfair Display';
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.03em;
+          color: rgba(27, 26, 23, 0.82);
+          margin: 0 0 10px 0;
+        }
+
+        span {
+          font-family: 'Prata';
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: rgba(27, 26, 23, 0.82);
+          display: block;
+          margin: 0 0 2px 0;
+        }
+
+        img {
+          display: block;
+        }
+
+        hr {
+          width: 30px;
+          border: 1px solid #8b8371;
+          display: inline-block;
+          margin: 0 10px 5px 0;
+        }
+
+        a {
+          font-family: 'Playfair Display';
+          font-size: 16px;
+          line-height: 21px;
+          color: #1b1a17;
+          display: inline-block;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.third-line {
+  background-image: url('../images/background_banner.jpg');
+  background-repeat: no-repeat;
+  background-color: #fdfdfb;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    width: 967px;
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+      display: inline;
+      padding: 52px 70px 21px 0;
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+
+    .right-side {
+      display: inline;
+      width: 376px;
+    }
+  }
+
+  .lines {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/lines_banner.svg');
+  }
+}

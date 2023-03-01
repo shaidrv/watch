@@ -1,0 +1,41 @@
+.header-container {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .icons {
+    margin: 0 100px 0 0;
+
+    a {
+      margin: 0 20px 0 0;
+      text-decoration: none;
+    }
+  }
+
+  .logo {
+    margin: 0 0 0 97px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      padding: 0 65px 0 0;
+      font-family: 'Roboto';
+
+      &:last-child {
+        padding: 0;
+      }
+
+      a {
+        color: #555248;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 14px;
+      }
+    }
+  }
+}

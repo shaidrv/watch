@@ -1,0 +1,17 @@
+@import '../../node_modules/normalize-scss/sass/normalize/import-now';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Prata&family=Roboto&display=swap');
+
+@import 'parts/header';
+
+@import 'parts/page';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
