@@ -187,6 +187,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 81px;
 
   &-container {
     width: 967px;
@@ -197,14 +198,64 @@
       display: inline;
       padding: 52px 70px 21px 0;
 
-      img {
+      .promo {
         margin-bottom: 20px;
+      }
+
+      .slide-switcher {
+        position: relative;
+        top: 0;
+        left: 329px;
+        color: rgba(27, 26, 23, 0.82);
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+      }
+
+      .arrow-left {
+        margin-right: 20px;
+        cursor: pointer;
+      }
+
+      .arrow-right {
+        margin-left: 20px;
+        cursor: pointer;
       }
     }
 
     .right-side {
-      display: inline;
       width: 376px;
+      position: relative;
+      left: 0;
+      top: 140px;
+
+      h3 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        color: #1b1a17;
+      }
+
+      p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #444240;
+        margin: 0 0 45px 0;
+      }
+
+      button {
+        width: 205px;
+        height: 64px;
+        background: #d4b098;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+      }
     }
   }
 
@@ -213,7 +264,66 @@
     right: 0;
     position: absolute;
     width: 300px;
-    height: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
     background-image: url('../images/lines_banner.svg');
+  }
+}
+
+.fourth-line {
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    width: 1171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+
+    h3 {
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 43px;
+      color: #1b1a17;
+    }
+
+    p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+
+      color: #444240;
+      margin-bottom: 118px;
+
+      span {
+        color: #262421;
+        font-weight: 700;
+      }
+    }
+
+    img {
+      margin-right: 18px;
+      padding-bottom: 6px;
+    }
+  }
+
+  &-right {
+    display: flex;
+    align-items: stretch;
+
+    &-one {
+      width: 242px;
+    }
+
+    &-two {
+      position: relative;
+      right: 0;
+      margin-left: 10px;
+    }
   }
 }
